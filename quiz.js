@@ -1,5 +1,12 @@
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the submit button and add the event listener
+    document.getElementById("submit-answer").addEventListener("click", checkAnswer);
+});
+
 function checkAnswer() {
-    let correctAnswer=4;
+    let correctAnswer="4";
     let userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 
    
